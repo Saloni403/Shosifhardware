@@ -25,6 +25,30 @@ ul {
 p{
   margin-bottom: 5px;
 }
+.fa-whatsapp {
+  position: fixed;
+  bottom: 20vh;
+  right: 20px;
+  background-color: green;
+  padding: 2px 5px;
+ font-size: 6vmin;
+  border: 2px solid #fff;
+ border-radius: 10px;
+ z-index: 9;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.fa-phone{
+  position: fixed;
+  bottom: 10vh;
+  right: 20px;
+  font-size: 6vmin;
+  padding: 2px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  z-index: 9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .btn:hover,
 button:hover {
   background-color: rgba(8, 65, 103, 0.8) !important;
@@ -175,7 +199,7 @@ del{
   position: absolute;
    top: 50%;
     left: 50%;
-    transform: translate(-140%,-50%); 
+    transform: translate(-100%,-50%); 
 
 }
 .divcenter{
@@ -436,9 +460,9 @@ animation: bounce2 2s ease infinite;
   .banner-set {
     height: auto;
   }
- .divleft{
+ /* .divleft{
   transform: translate(-100%,-50%); 
- }
+ } */
   .banner-text-body h1{
     font-size: 70%;
     margin-bottom: 5px;
@@ -478,6 +502,9 @@ animation: bounce2 2s ease infinite;
     .upperfooter{
       flex-direction: column;
     }
+  .upperdiv{
+    width: 100%;
+  }
      .leftdiv4,
   .leftdiv3,
   .leftdiv2,
@@ -485,11 +512,17 @@ animation: bounce2 2s ease infinite;
   .leftdiv0{
     width: 100%;
   }
+  .fa-whatsapp{
+    bottom: 16vh;
+    padding: 5px;
+  }
+ 
 }
 
 @media(max-width:767px) {
  .banner-text-body{
-  padding: 5px;
+  /* margin: 10px 0; */
+  padding: 5px ;
  }
 .part2 .card-body span{
     display: none;
@@ -514,7 +547,7 @@ animation: bounce2 2s ease infinite;
   .toolsbannercontent{
     padding: 10px;
   }
-  .upperdiv, .section5content{
+   .section5content{
     display: grid;
     grid-template-columns: auto auto; 
   }
