@@ -16,6 +16,7 @@ tr{
 }
 .section1 a{
     font-size: 2rem;
+    color: #797979 !important;
 }
 .plus-minus button{
     border: none;

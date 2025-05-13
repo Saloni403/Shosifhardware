@@ -34,6 +34,7 @@ label{
 }
 .section1 a{
     font-size: 2rem;
+    color: #797979 !important;
 }
 .orderdetails tr{
    border-bottom: 2px solid lightgray;
@@ -49,6 +50,7 @@ label{
    align-items: start;
    margin-top: 2vw;
 }
+
 @media (max-width:900px){
     .section1 a{
     font-size: 2vmax;
