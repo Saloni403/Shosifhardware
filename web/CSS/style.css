@@ -10,7 +10,7 @@ li {
 
 a {
   text-decoration: none !important;
-  color: black !important;
+
 }
 hr{
   margin: 5px 0;
@@ -50,9 +50,14 @@ p{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .btn:hover,
-button:hover {
+button:hover
+ {
   background-color: rgba(8, 65, 103, 0.8) !important;
   color: #fff !important;
+}
+.menu ul a:hover {
+background-color: blue ;
+
 }
 
 .btn-outline-success {
@@ -60,10 +65,11 @@ button:hover {
   border-radius: 0.375rem !important;
   color: #000;
 }
-#navbarSupportedContent ul a:hover, .menu ul a:hover{
+#navbarSupportedContent ul a:hover{
 color: navy !important;
 text-decoration: 2px solid underline !important;
 }
+ 
 button, .part2 .card-body a,.part1 .card-body a
  {
   padding: 0.375rem 0.75rem;
@@ -80,15 +86,16 @@ button, .part2 .card-body a,.part1 .card-body a
 }
 .menu {
 
-  background-color: rgb(204 238 249 / 35%)
+  background-color: #000
 }
 
 .mainnav {
   position: sticky;
   top: 0;
   z-index: 999;
-  background: rgba(202, 208, 211, 0.2);
+  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(10px);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .bg-body-tertiary{
   background: none !important;
@@ -103,7 +110,10 @@ button, .part2 .card-body a,.part1 .card-body a
   justify-content: space-evenly;
   margin-bottom: 0;
 }
-
+.menu li a{
+  padding: 5px;
+color: #fff !important;
+}
 .hiddennav
  {
   padding: 20px;
@@ -116,7 +126,7 @@ button, .part2 .card-body a,.part1 .card-body a
   top: 0;
   transition: 0.3s;
   line-height: 3;
-  z-index: 9;
+  z-index: 999;
 color: #fff;
 }
 
@@ -131,7 +141,7 @@ color: #fff;
   top: 0;
   transition: 0.3s;
   line-height: 3;
-  z-index: 9;
+  z-index: 999;
 color: #fff;
 }
 .hiddennav li a,
@@ -192,7 +202,7 @@ del{
 .carousel-item{
   position: relative;
 }
-.divleft{
+/* .divleft{
   padding: 20px;
   color: #fff;
   background: rgba(0, 0, 0, 0.6); 
@@ -201,7 +211,7 @@ del{
     left: 50%;
     transform: translate(-100%,-50%); 
 
-}
+} */
 .divcenter{
   padding: 20px;
   color: #fff;
@@ -229,14 +239,14 @@ del{
 
 .contentdivofsection {
 
-  background-color: rgb(204 238 249 / 35%);
+  /* background-color: rgb(204 238 249 / 35%); */
   padding: 20px;
 
 }
 .contentdivofsection  .part1{
   width: 100%;
 }
-#carouselExamplehidden a,
+/* #carouselExamplehidden a,
 #carouselExample a {
   padding: 0.375rem 0.75rem;
   border: 1px solid rgb(8, 65, 103);
@@ -247,7 +257,7 @@ del{
   font-weight: 400;
   line-height: 1.5;
   font-size: 1rem;
-}
+} */
 
 #carouselExamplehidden {
   display: none;
@@ -335,7 +345,7 @@ span {
 }
 .mainfooter {
 
-  background-color: rgb(204 238 249 / 35%)
+  background-color: #000
 }
 
 .upperfooter {
@@ -347,6 +357,17 @@ span {
 
 .leftdiv0{
   width: 20%;
+}
+.leftdiv0 img{
+  background-color: rgba(255,255,255,0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 20px ;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* width: 75%; */
+}
+.leftdiv0 p , .leftdiv1, .leftdiv2,.leftdiv3,.leftdiv4{
+  color: #fff;
 }
 .banner-set {
   height: 600px;
@@ -425,7 +446,7 @@ text-align: center;
   margin-bottom: 10px;
 }
 .card{
-  background-color: rgb(204 238 249 / 35%) ;
+  /* background-color: rgb(204 238 249 / 35%) ; */
 }
 
 
