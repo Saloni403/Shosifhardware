@@ -1,0 +1,71 @@
+.section1, .section2{
+   display: flex;
+   align-items: start;
+   justify-content: center;
+}
+td, th{
+    padding: 1rem 0 ;
+    text-align: end;
+}
+
+
+input, select{
+     padding: 5px;
+     width: 100%;
+}
+.c1{
+display: flex;
+align-items: center;
+justify-content: start;
+}
+.c1 input{
+width: fit-content;
+}
+.c1 label{
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+label{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#checkoutdetailsform div{
+    margin-bottom: 20px !important;
+}
+.section1 a{
+    font-size: 2rem;
+}
+.orderdetails tr{
+   border-bottom: 2px solid lightgray;
+  
+}
+.section2{
+    margin: 2vw 5vw;
+}
+.left ,.right{
+    padding: 2vw 2vw;
+}
+.right{
+   align-items: start;
+   margin-top: 2vw;
+}
+@media (max-width:900px){
+    .section1 a{
+    font-size: 2vmax;
+}
+}
+@media(max-width:768px){
+.section1 a:nth-child(1),.section1 a:nth-child(3) {
+    display: none;
+} 
+.section2{
+    display: block;
+    margin: 0;
+}
+.right{
+    margin: 0 2vw;
+}
+.toplines p{
+    font-size: 10px;
+}
+}
