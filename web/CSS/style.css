@@ -186,12 +186,14 @@ color: #fff !important;
 .card-title {
   color: #656565;
   font-weight: 600;
+  margin-bottom: 0;
 }
   del{
   color: red;
 }
 .card{
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+ 
 }
 
 .threeimges img:hover, .card:hover{
@@ -335,9 +337,7 @@ span {
   justify-content: space-evenly;
   width: 100%;;
 }
-/* .section5content div{
-  width: 15%;
-} */
+
 .section5content img{
   width: 100%;
   
@@ -364,11 +364,16 @@ span {
   padding: 8px 16px;
   border-radius: 12px;
 }
-.leftdiv0 p , .leftdiv1 li , .leftdiv2 li,.leftdiv3 li,.leftdiv4 li, .leftdiv1 h3 , .leftdiv2 h3,.leftdiv3 h3,.leftdiv4 h3{
+ .leftdiv1 li , .leftdiv2 li,.leftdiv3 li,.leftdiv4 li, .leftdiv1 h3 , .leftdiv2 h3,.leftdiv3 h3,.leftdiv4 h3{
   color: #ffffff;
+  margin-bottom: 5px;
+}
+.leftdiv0 p {
+  color: #ffffff;
+  margin: 5px 0;
 }
 .banner-set {
-  height: 600px;
+  height: 600px ;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -477,16 +482,14 @@ animation: bounce2 2s ease infinite;
   .banner-set {
     height: 30vmax;
   }
- /* .divleft{
-  transform: translate(-100%,-50%); 
- } */
+ 
   
   .leftdiv4,
   .leftdiv3,
   .leftdiv2,
   .leftdiv1,
   .leftdiv0{
-    font-size: 10px;
+    font-size: 12px;
   }
  h3{
   font-size: 1rem;
@@ -517,19 +520,22 @@ animation: bounce2 2s ease infinite;
   }
   .fa-whatsapp{
     bottom: 16vh;
-    padding: 5px;
+    padding: 3px;
   }
  
 }
 
 @media(max-width:767px) {
+    
+
   .banner-text-body h1{
     font-size: 70%;
     margin-bottom: 5px;
   }
   .banner-text-body h4{
     font-size: 50%;
-    margin-bottom: 5px;
+    margin-bottom: -5px;
+   
   }
  .banner-text-body button{
     font-size: 8px;
@@ -575,9 +581,7 @@ animation: bounce2 2s ease infinite;
     padding: 0;
   }
 
-  .banner-set {
-    /* height: auto; */
-  }
+ 
 
   .threeimges,
 

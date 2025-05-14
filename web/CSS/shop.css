@@ -25,6 +25,7 @@ margin: 2vh 5vw;
     text-align: center;
     background: rgba(214, 214, 214, 0.5);
     backdrop-filter: blur(10px);
+    color: #000;
 }
 .card span:hover{
     color: #fff;
@@ -46,6 +47,7 @@ margin: 2vh 5vw;
 .list{
     margin: 0 1vw;
 }
+
 .hiddenlist{
     position: fixed;
     top:80px;
