@@ -70,6 +70,7 @@ margin: 2vh 5vw;
     .hiddenlist{
         display: none;
     }
+    
 }
 @media(max-width:768px){
     #shoppage{
@@ -80,6 +81,9 @@ margin: 2vh 5vw;
     }
     .fa-ellipsis-vertical{
         display: block;
+    }
+    .shopupper{
+        justify-content: space-around;
     }
 }
 

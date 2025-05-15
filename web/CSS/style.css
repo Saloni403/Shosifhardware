@@ -30,30 +30,30 @@ p{
   margin-bottom: 5px;
   color: #656565;
 }
-.fa-whatsapp {
-  position: fixed;
-  bottom: 20vh;
-  right: 20px;
+ .fa-whatsapp {
   background-color: green;
-  padding: 2px 5px;
- font-size: 6vmin;
-  border: 2px solid #fff;
- border-radius: 10px;
- z-index: 9;
- box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 6px 8px;
+   /* padding:10px; */
+font-size: 2.5vmax;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: .5rem;
 }
 .fa-phone{
-  position: fixed;
-  bottom: 10vh;
-  right: 20px;
-  font-size: 6vmin;
-  padding: 2px;
   background-color: #fff;
-  border: 2px solid #fff;
-  border-radius: 10px;
-  z-index: 9;
+  padding: 6px;
+font-size: 2.5vmax;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: .5rem;
 }
+    .icons{
+      position: fixed;
+      right: 2vmax;
+      bottom: 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      z-index: 99;
+    }
 .btn:hover,
 button:hover
  {
@@ -168,7 +168,7 @@ color: #fff !important;
 }
 
 .threeimges img {
-  width: 30vmax;
+  width: 30%;
   border: 2px solid white;
   border-radius: 20px;
   /* box-shadow: rgba(0, 0, 0, 0.764) 1.95px 1.95px 2.6px; */
@@ -212,27 +212,27 @@ color: #fff !important;
 .carousel-item{
   position: relative;
 }
-/* .divleft{
-  padding: 20px;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.6); 
-  position: absolute;
-   top: 50%;
-    left: 50%;
-    transform: translate(-100%,-50%); 
 
-} */
 .divcenter{
-  padding: 20px;
   color: #fff;
   background: rgba(0, 0, 0, 0.6); 
   position: absolute;
    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%); 
+   
+
 }
-.divcenter span,.divcenter p,.divcenter h4  {
-  color: #FFFFFF;
+  
+  .banner-text-body h1{
+     font-size: 7vw;
+  }
+
+.banner-text-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .banner-text-body button{
   color: #fff;
@@ -338,9 +338,16 @@ span {
   width: 100%;;
 }
 
+.section5content div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
 .section5content img{
-  width: 100%;
-  
+  width: 80%;
+ /* max-width: 150px; */
+  /* aspect-ratio: 2/2; */
 }
 .mainfooter {
 
@@ -380,12 +387,12 @@ span {
 }
 
 .paintbanner {
-  background-image: url(../images/paintbanner.jpg);
+  background-image: url(../smallbanners/Kitchenbanner.jpg);
 }
 
 .paintbannercontent {
   height: 100%;
-  background: rgba(187, 215, 242, 0.5);
+  background: rgba(3, 3, 3, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -395,33 +402,35 @@ span {
 
 .paintbannercontent p {
   font-size: 10vmax;
-  color:#000;
+  color:#FFFFFF;
 }
 
 .toolsbanner {
-  background-image: url(../images/toolsbanner.jpg);
+  background-image: url(../smallbanners/Toolbanner.jpg);
 
 }
 
 
 .toolsbannercontent {
   height: 100%;
-  background: rgba(214, 241, 138, 0.5);
+  background: rgba(3, 3, 3, 0.5);
   display: flex;
   flex-direction: column;
-
   justify-content: center;
-  align-items: start;
-  /* padding-top: 100px; */
-  padding-left: 50px;
-
+  align-items: center;
+  /* padding-left: 50px; */
+padding: 20px;
 
 }
 
 .toolsbannercontent h1 {
   font-size: 7vmax;
-  color: rgb(8, 65, 103);
+  color:#FFFFFF;
 
+}
+.toolsbannercontent p{
+  color: #fff;
+  text-align: center;
 }
 
 .reliability{
@@ -518,36 +527,24 @@ animation: bounce2 2s ease infinite;
   .leftdiv0{
     width: 100%;
   }
-  .fa-whatsapp{
+  /* .fa-whatsapp{
     bottom: 16vh;
     padding: 3px;
-  }
+    margin-bottom: 5px;
+  } */
  
 }
 
 @media(max-width:767px) {
     
 
-  .banner-text-body h1{
-    font-size: 70%;
+  /* .banner-text-body h1{
+    font-size: 3vmax;
     margin-bottom: 5px;
   }
-  .banner-text-body h4{
-    font-size: 50%;
-    margin-bottom: -5px;
-   
-  }
- .banner-text-body button{
-    font-size: 8px;
-   padding:  2px 5px;
-  }  
-  .banner-text-body p,.banner-text-body span{
-    font-size: 40%;
-  }
- .banner-text-body{
-  /* margin: 10px 0;  */
-   padding: 5px ;
- }
+  */
+
+ 
 .part2 .card-body span{
     display: none;
   }
@@ -639,6 +636,6 @@ padding: 0;
 }
 
 #carouselExampleAutoplaying img {
-    height: 60vw;
+    height: 40vw;
   }
 

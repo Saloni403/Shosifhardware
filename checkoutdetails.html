@@ -29,12 +29,13 @@
   </head>
 
   <body>
-     <header class="mainnav " style="background-color: #1F1F1F;">
+  
+ <header class="mainnav " style="background-color: #1F1F1F;">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
 
 
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.html" style="outline: none;">
           <img src="web/images/shosiflogo-removebg-preview.png" class="companylogoimg" alt="companylogo" width="100">
         </a>
 
@@ -65,7 +66,10 @@
       </div>
     </nav>
   </header>
+
+
   <div class="icons">
+    
     <a href="//api.whatsapp.com/send?phone=919599669486"  target="_blank" title="Share on whatsapp"> <i class="fa-brands fa-whatsapp" style="color: #ffffff;  "></i></a>
     <a href="tel:+919599669486"><i class="fa-solid fa-phone "  style="color: #3d19f0; "></i></a>
   
@@ -74,7 +78,7 @@
     <ul>
 
       <li><a href="index.html">HOME</a></li>
-     <li><a href="#">  HARDWARE</a></li>
+     <li><a href="hardware.html">  HARDWARE</a></li>
       
       <li><a href="shop.html">
           SHOP</a></li>
@@ -112,7 +116,7 @@
     <ul>
 
       <li><a href="index.html">HOME</a></li>
-       <li><a href="#">
+       <li><a href="hardware.html">
           HARDWARE</a></li>
       <li><a href="shop.html">
           SHOP</a></li>
@@ -149,53 +153,23 @@
         <h2>BILLING DETAILS</h2>
         <form id="checkoutdetailsform" action="">
           <div>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" />
-            <label for="Lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" />
+            <!-- <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" /> -->
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
           </div>
+         
           <div>
-            <label for="country">Country / Region</label><br />
-            <select id="country" name="countries">
-              <option value="india">India</option>
-              <option value="pakistan">Pakistan</option>
-              <option value="saudi">Saudi</option>
-              <option value="dubai">Dubai</option>
-            </select>
-          </div>
-          <div>
-            <label for="saddress">Street address</label><br />
+            <label for="address">address</label><br />
             <input
               type="text"
-              id="saddress"
+              id="address"
               placeholder="House number and street name"
             />
           </div>
-          <div>
-            <label for="state">State</label><br />
-            <select id="state" name="state">
-              <option value="up">Uttar Pardesh</option>
-              <option value="mp">MP</option>
-              <option value="punjab">Punjab</option>
-              <option value="delhi">Delhi</option>
-            </select>
-          </div>
-          <div>
-            <label for="city">Town / City</label><br />
-            <select id="city" name="city">
-              <option value="hapur">Hapur</option>
-              <option value="meerut">Meerut</option>
-              <option value="noida">Noida</option>
-              <option value="delhi">Delhi</option>
-            </select>
-          </div>
-          <div>
-            <label for="pinno">PIN code</label><br />
-            <input type="number" name="pin code" />
-          </div>
+        
           <div>
             <label for="phone">Phone No.</label><br />
-            <!-- <span>+91</span> -->
             <input
             value="+91"
               type="tel"
@@ -208,19 +182,6 @@
           <div>
             <label for="email">Enter your email:</label><br />
             <input type="email" id="email" name="email" />
-          </div>
-          <div class="c1">
-            <input
-              type="checkbox"
-              id="createanaccount"
-              name="createanaccount"
-              value="createaccount"
-            />
-            <label for="createanaccount"> Create an account?</label>
-            </div>
-            <div class="c1">
-            <input type="checkbox" id="shipment" name="shipment" value="ship"  />
-            <label for="shipment"> Ship to a different address?</label>
           </div>
           <div>
             <label for="notehere">Order notes (optional)</label><br />
@@ -281,17 +242,12 @@
     <footer>
       <div class="mainfooter">
         <div class="upperfooter">
-          <div class="leftdiv0">
-            <img
-              src="web/images/shosiflogo-removebg-preview.png"
-              alt="logoimg"
-              width="100"
-            />
-            <p>
-              Trusted Manufacturer & Supplier of Architectural Hardware Fittings
-              & Solutions
-            </p>
-          </div>
+            <div class="leftdiv0">
+         
+          <a href="index.html">  <img src="web/images/shosiflogo-removebg-preview.png" alt="logoimg" width="100"></a>
+        <p>Trusted Manufacturer & Supplier of Architectural Hardware Fittings & Solutions</p>
+         
+        </div>
           <div class="leftdiv1">
             <h3>About Us</h3>
             <hr />
@@ -346,17 +302,9 @@
         </div>
 
         <div>
-          <p
-            style="
-              text-align: center;
-              padding: 10px;
-              margin: 0;
-              background-color: black;
-              color: black;
-            "
-          >
-            Copyright Tssg-Tech pvt.ltd © 2025 All Rights Reserved
-          </p>
+         <a href="https://tssgtech.com/" target="_blank"> <p style="text-align: center;  padding: 10px  ;margin: 0; background-color: black; color: white;">
+          Copyright Tssg-Tech pvt.ltd © 2025 All Rights Reserved
+        </p></a>
         </div>
       </div>
     </footer>
