@@ -50,16 +50,18 @@ margin: 2vh 5vw;
 
 .hiddenlist{
     position: fixed;
-    top:80px;
+    top:0px;
     right: -350px;
     transition: 0.3s;
     background: rgba(8, 65, 103, 0.8);
     backdrop-filter: blur(10px);
     padding: 20px;
-    height: 100vh;
+    height: 100%;
     width: 250px;
-    z-index: 9;
+    z-index: 99999;
     line-height: 2;
+    overflow: scroll;
+    cursor: pointer;
     color: #fff;
 }
 .hiddenlist a {

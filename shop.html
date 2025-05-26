@@ -1,66 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="web/CSS/style.css">
-    <link rel="stylesheet" href="web/CSS/shop.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="web/CSS/style.css" />
+    <link rel="stylesheet" href="web/CSS/shop.css" />
     <title>shop by shosify hardware</title>
-</head>
+  </head>
 
-<body>
-   
-  <header class="mainnav " style="background-color: #1F1F1F;">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
+  <body>
+    <header class="mainnav" style="background-color: #1f1f1f">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="outline: none">
+            <img
+              src="web/images/shosiflogo-removebg-preview.png"
+              class="companylogoimg"
+              alt="companylogo"
+              width="100"
+            />
+          </a>
 
-
-        <a class="navbar-brand" href="index.html" style="outline: none;">
-          <img src="web/images/shosiflogo-removebg-preview.png" class="companylogoimg" alt="companylogo" width="100">
-        </a>
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-            <!-- <li class="nav-item">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
               <a class="nav-link active text-white" aria-current="page" href="#"><i class="fa-solid fa-user"
                   style="color: #ffffff;"></i>Login Now</a>
             </li> -->
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#"><i class="fa-solid fa-location-pin" style="color: #ffffff;"></i>Track Order</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="shoppingcart.html"><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i>Cart</a>
-            </li>
-
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success text-white " type="submit">Search</button>
-          </form>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"
+                  ><i
+                    class="fa-solid fa-location-pin"
+                    style="color: #ffffff"
+                  ></i
+                  >Track Order</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="shoppingcart.html"
+                  ><i
+                    class="fa-solid fa-cart-shopping"
+                    style="color: #ffffff"
+                  ></i
+                  >Cart</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success text-white" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+          <div>
+            <i class="fa-solid fa-bars" style="color: white" id="menuicon"></i>
+          </div>
         </div>
-        <div>
-          <i class="fa-solid fa-bars " style="color: white;" id="menuicon"></i>
-          <a href="#"><button id="Productlistbtn">Our Products</button></a>
-        </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </header>
 
-
-  <div class="icons">
-    
-    <a href="//api.whatsapp.com/send?phone=919599669486"  target="_blank" title="Share on whatsapp"> <i class="fa-brands fa-whatsapp" style="color: #ffffff;  "></i></a>
-    <a href="tel:+919599669486"><i class="fa-solid fa-phone "  style="color: #3d19f0; "></i></a>
-  
-  </div>
-  <div class="menu">
+    <div class="icons">
+      <a
+        href="//api.whatsapp.com/send?phone=919599669486"
+        target="_blank"
+        title="Share on whatsapp"
+      >
+        <i class="fa-brands fa-whatsapp" style="color: #ffffff"></i
+      ></a>
+      <a href="tel:+919599669486"
+        ><i class="fa-solid fa-phone" style="color: #3d19f0"></i
+      ></a>
+    </div>
+    <div class="menu">
     <ul>
 
       <li><a href="index.html">HOME</a></li>
@@ -68,12 +98,6 @@
       
       <li><a href="shop.html">
           SHOP</a></li>
-          <li><a href="#">
-          PAINTS</a></li>
-      <li><a href="#">
-          ELECTRICALS</a></li>
-      <li><a href="#">
-          SANITARY WARE & FAUCETS</a></li>
       <li><a href="#">
           CEMENTS & POP</a></li>
       <li><a href="#">
@@ -82,279 +106,267 @@
           TRACKING</a></li>
     </ul>
   </div>
-  <!-- mobile view -->
-  <div class="hiddennav">
-    <ul>
-      <li> <i class="fa-solid fa-xmark" style="color: white;" id="closing"></i></li>
-      <!-- <li><a href="#"><i class="fa-solid fa-user"></i>Login Now</a></li> -->
-      <li><a href="#"><i class="fa-solid fa-location-pin"></i>Track Order</a></li>
+   <!-- mobile view -->
+    <div class="ourproducts">
+      <i class="fa-solid fa-xmark" id="closinglist"></i>
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="hardware.html"> HARDWARE</a></li>
+        <li><a href="shop.html"> SHOP</a></li>
+        <li><a href="#"> CEMENTS & POP</a></li>
+        <li><a href="#"> ADHESIVE</a></li>
+        <li><a href="#"> TRACKING</a></li>
+         <li><a href="#"><i class="fa-solid fa-location-pin"></i>Track Order</a></li>
       <li><a href="shoppingcart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a></li>
-    </ul>
-  </div>
-
-  <!-- list items -->
-  <div class="ourproducts">
-    <i class="fa-solid fa-xmark" id="closinglist"></i>
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-    <ul>
-
-      <li><a href="index.html">HOME</a></li>
-       <li><a href="hardware.html">
-          HARDWARE</a></li>
-      <li><a href="shop.html">
-          SHOP</a></li>
-      <li><a href="#">
-          PAINTS</a></li>
-      <li><a href="#">
-          ELECTRICALS</a></li>
-      <li><a href="#">
-          SANITARY WARE & FAUCETS</a></li>
-      <li><a href="#">
-          CEMENTS & POP</a></li>
-      <li><a href="#">
-          ADHESIVE</a></li>
-      <li><a href="#">
-          TRACKING</a></li>
-    </ul>
-
-  </div>
-
-
-
-    <section>
-<div class="shopupper">
-        <div class="headingpart">
-            <a href="index.html">HOME</a>
-            <i class="fa-solid fa-slash fa-rotate-90"> </i>
-            <a href="shop.html">SHOP</a>
-        </div>
-        
-<div>
-    <i class="fa-solid fa-ellipsis-vertical " id="threeDots" ></i>
-</div>
-<script>
-
-</script>
+      </ul>
     </div>
-        <div id="shoppage">
-            <div class="list">
-                <span>BROWSE</span>
-                <hr>
-                <ul>
-                   
-        <li><a href="productslist.html">Uncategorized</a></li>
-         <li><a href="productslist.html">Hardware</a></li>
-        <li><a href="productslist.html">Adhesives</a></li>
-        <li><a href="productslist.html">Cements & POP</a></li>
-        <li><a href="productslist.html">Dry Wall Gypsum Screws</a></li>
-        <!-- <li><a href="">Electrical Items</a></li> -->
-        <!-- <li><a href="">Home Decorations</a></li> -->
-        <li><a href="productslist.html">Locks & Accessories</a></li>
-        <li><a href="productslist.html">Paints</a></li>
-        <li><a href="productslist.html">Pipes & Fittings</a></li>
-        <li><a href="productslist.html">Sanitary Ware & Faucets</a></li>
-        <li><a href="productslist.html">Waterproofing</a></li>
-                </ul>
-            </div>
+   
+   
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/bolt.webp" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html"> <span class="p-2 w-100   ">UNCATEGORIZED</span></a>
-                            </a>
-                        </div>
-                    </div>
-                   <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/handleshop.jpg" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html"> <span class="p-2 w-100">Hardware</span></a>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/fevi.jpeg" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html"> <span class="p-2 w-100   ">ADHESIVES</span></a>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/pop.webp" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html" > <span class="p-2 w-100   ">CEMENTS & POP</span></a>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/nuts.webp" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html"> <span class="p-2 w-100   ">DRY WALL GYPSUM SCREWS</span></a>
-                            </a>
-                        </div>
-                    </div>
-                   
-                    <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/LaA.webp" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html"> <span class="p-2 w-100   ">LOCK & ACCESSORIES</span></a>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/p.webp" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html"> <span class="p-2 w-100   ">PAINTS</span></a>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/paf.webp" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html"> <span class="p-2 w-100   ">PIPES & FITTINGS</span></a>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/swf.webp" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html"> <span class="p-2 w-100   ">SANITARYWARE & FAUCETS</span></a>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3  col-md-4 col-6 ">
-                        <div class="card mb-3 p-2 w-100">
-                            <a href="#">
-                                <img src="web/shopimages/waterproof.jpg" class="card-img-top" style="position: relative;"
-                                    alt="">
-                                <a href="productslist.html"> <span class="p-2 w-100   ">WATERPROOFING</span></a>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+ <section>
+      <div class="shopupper">
+        <div class="headingpart">
+          <a href="index.html">HOME</a>
+          <i class="fa-solid fa-slash fa-rotate-90"> </i>
+          <a href="shop.html">SHOP</a>
         </div>
+
+        <div>
+          <i class="fa-solid fa-ellipsis-vertical" id="threeDots"></i>
+        </div>
+       
+      </div>
+      <div id="shoppage">
+        <div class="list">
+          <span>BROWSE</span>
+          <hr />
+          <ul>
+            <li><a href="productslist.html">Uncategorized</a></li>
+            <li><a href="hardware.html">Hardware</a></li>
+            <li><a href="productslist.html">Adhesives</a></li>
+            <li><a href="productslist.html">Cements & POP</a></li>
+            <li><a href="productslist.html">Dry Wall Gypsum Screws</a></li>
+            <li><a href="productslist.html">Locks & Accessories</a></li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="card mb-3 p-2 w-100">
+                <a href="#">
+                  <img
+                    src="web/shopimages/bolt.webp"
+                    class="card-img-top"
+                    style="position: relative"
+                    alt=""
+                  />
+                  <a href="productslist.html">
+                    <span class="p-2 w-100">UNCATEGORIZED</span></a
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="card mb-3 p-2 w-100">
+                <a href="#">
+                  <img
+                    src="web/shopimages/handleshop.jpg"
+                    class="card-img-top"
+                    style="position: relative"
+                    alt=""
+                  />
+                  <a href="productslist.html">
+                    <span class="p-2 w-100">Hardware</span></a
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="card mb-3 p-2 w-100">
+                <a href="#">
+                  <img
+                    src="web/shopimages/fevi.jpeg"
+                    class="card-img-top"
+                    style="position: relative"
+                    alt=""
+                  />
+                  <a href="productslist.html">
+                    <span class="p-2 w-100">ADHESIVES</span></a
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="card mb-3 p-2 w-100">
+                <a href="#">
+                  <img
+                    src="web/shopimages/pop.webp"
+                    class="card-img-top"
+                    style="position: relative"
+                    alt=""
+                  />
+                  <a href="productslist.html">
+                    <span class="p-2 w-100">CEMENTS & POP</span></a
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="card mb-3 p-2 w-100">
+                <a href="#">
+                  <img
+                    src="web/shopimages/nuts.webp"
+                    class="card-img-top"
+                    style="position: relative"
+                    alt=""
+                  />
+                  <a href="productslist.html">
+                    <span class="p-2 w-100">DRY WALL GYPSUM SCREWS</span></a
+                  >
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <div class="card mb-3 p-2 w-100">
+                <a href="#">
+                  <img
+                    src="web/shopimages/LaA.webp"
+                    class="card-img-top"
+                    style="position: relative"
+                    alt=""
+                  />
+                  <a href="productslist.html">
+                    <span class="p-2 w-100">LOCK & ACCESSORIES</span></a
+                  >
+                </a>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
     </section>
 
+
+   
+
     <!-- list item  -->
-<div class="hiddenlist">
-    <ul>
+    <div class="hiddenlist">
+      <ul>
         <i class="fa-solid fa-xmark shopclosing"></i>
-        
         <li><a href="productslist.html">Uncategorized</a></li>
-        <li><a href="productslist.html">Hardware</a></li>
+        <li><a href="hardware.html">Hardware</a></li>
         <li><a href="productslist.html">Adhesives</a></li>
         <li><a href="productslist.html">Cements & POP</a></li>
         <li><a href="productslist.html">Dry Wall Gypsum Screws</a></li>
         <li><a href="productslist.html">Electrical Items</a></li>
         <li><a href="productslist.html">Home Decorations</a></li>
         <li><a href="productslist.html">Locks & Accessories</a></li>
-        <li><a href="productslist.html">Paints</a></li>
-        <li><a href="productslist.html">Pipes & Fittings</a></li>
-        <li><a href="productslist.html">Sanitary Ware & Faucets</a></li>
-        <li><a href="productslist.html">Waterproofing</a></li>
-    </ul>
-</div>
-
-
+      </ul>
+    </div>
 
     <footer>
-        <div class="mainfooter">
-            <div class="upperfooter">
-                <div class="leftdiv0">
-
-                   <a href="index.html"> <img src="web/images/shosiflogo-removebg-preview.png" alt="logoimg" width="100"></a>
-                    <p>Trusted Manufacturer & Supplier of Architectural Hardware Fittings & Solutions</p>
-
-                </div>
-                <div class="leftdiv1">
-                    <h3>About Us</h3>
-                    <hr>
-                    <ul>
-                        <li>Careers</li>
-                        <li>Press</li>
-                        <li>Testimonials</li>
-                        <li>Blog</li>
-                        <li>Articles</li>
-                    </ul>
-                </div>
-                <div class="leftdiv2">
-                    <h3>Help</h3>
-                    <hr>
-                    <ul>
-                        <li>Buying Guide</li>
-                        <li>Contact us</li>
-                        <li>Track My Order</li>
-                    </ul>
-                </div>
-                <div class="leftdiv3">
-                    <h3>FAQs</h3>
-                    <hr>
-                    <ul>
-                        <li>Order Tracking</li>
-                        <li>Cancellation and Return</li>
-                        <li>Refund</li>
-                        <li>Payment Option</li>
-                    </ul>
-                     <i class="fa-brands fa-facebook " style="color: blue; border-radius: 50px; background-color: #ffffff; font-size: 25px;" ></i>
-          <i class="fa-brands fa-youtube " style="color: red;background-color: #ffffff; border-radius: 10px;  font-size: 25px;"></i>
-          <i class="fa-brands fa-linkedin " style="color: blue;background-color: #ffffff; font-size: 25px;"></i>
-          <i class="fa-brands fa-square-x-twitter " style="background-color: #ffffff; font-size: 25px;" ></i>
-          <i class="fa-brands fa-instagram " style="font-size: 25px; border-radius: 5px;padding: 2px; color: #ffffff; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f
+      <div class="mainfooter">
+        <div class="upperfooter">
+          <div class="leftdiv0">
+            <a href="index.html">
+              <img
+                src="web/images/shosiflogo-removebg-preview.png"
+                alt="logoimg"
+                width="100"
+            /></a>
+            <p>
+              Trusted Manufacturer & Supplier of Architectural Hardware Fittings
+              & Solutions
+            </p>
+          </div>
+          <div class="leftdiv1">
+            <h3>About Us</h3>
+            <hr />
+            <ul>
+              <li>Careers</li>
+              <li>Press</li>
+              <li>Testimonials</li>
+              <li>Blog</li>
+              <li>Articles</li>
+            </ul>
+          </div>
+          <div class="leftdiv2">
+            <h3>Help</h3>
+            <hr />
+            <ul>
+              <li>Buying Guide</li>
+              <li>Contact us</li>
+              <li>Track My Order</li>
+            </ul>
+          </div>
+           <div class="leftdiv3">
+          <h3>FAQs</h3>
+          <hr>
+          <ul>
+            <li>Order Tracking</li>
+            <li>Cancellation and Return</li>
+            <li>Refund</li>
+            <li>Payment Option</li>
+          </ul>
+         
+      
+          <i class="fa-brands fa-youtube p-1" style="color: red;background-color: #ffffff; border-radius: 5px;  font-size: 20px;"></i>
+          <i class="fa-brands fa-linkedin p-1" style=" color: blue;background-color: #ffffff;border-radius: 5px; font-size: 20px;"></i>
+          <i class="fa-brands fa-square-x-twitter p-1" style="background-color: #ffffff;border-radius: 5px; font-size: 20px;" ></i>
+          <i class="fa-brands fa-facebook p-1" style=" color: blue; border-radius: 5px; background-color: #ffffff; font-size: 20px; " ></i>
+            <i class="fa-brands fa-instagram p-1" style="font-size: 20px; border-radius: 5px;padding: 2px; color: #ffffff; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f
 60%, #285aeb 90%);"></i>
-                    <!-- <i class="fa-brands fa-square-instagram" style=" color: #ffffff; background: radial-gradient(circle at 30% 30% , #F44747, #EEDC31, #7FDB6A,#0E68CE, #F58529, #DD2A7B, #8134AF,#515BD4,#E4405F);"></i> -->
-                </div>
-                <div class="leftdiv4">
-                    <h3>Miscellaneous</h3>
-                    <hr>
-                    <ul>
-                        <li>Bulk Enquiry</li>
-                        <li>shosify Business</li>
-                        <li>Supplier Cebtral</li>
-                        <li>Credlix</li>
-                        <li>DigiMRO</li>
-                        <li>Zoglix</li>
-                        <li>TenderShark</li>
-                        <li>Ad Sales Solution</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div>
-
-             <a href="https://tssgtech.com/" target="_blank">  <p style="text-align: center;  padding: 10px  ;margin: 0; background-color: black; color: white;">
-                    Copyright Tssg-Tech pvt.ltd © 2025 All Rights Reserved
-                </p></a> 
-            </div>
+         
         </div>
-    </footer>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-    crossorigin="anonymous"></script>
-  <script src="web/JS/script.js"></script>
-</body>
+          <div class="leftdiv4">
+            <h3>Miscellaneous</h3>
+            <hr />
+            <ul>
+              <li>Bulk Enquiry</li>
+              <li>shosify Business</li>
+              <li>Supplier Cebtral</li>
+              <li>Credlix</li>
+              <li>DigiMRO</li>
+              <li>Zoglix</li>
+              <li>TenderShark</li>
+              <li>Ad Sales Solution</li>
+            </ul>
+          </div>
+        </div>
 
+        <div>
+          <a href="https://tssgtech.com/" target="_blank">
+            <p
+              style="
+                text-align: center;
+                padding: 10px;
+                margin: 0;
+                background-color: black;
+                color: white;
+              "
+            >
+              Copyright Tssg-Tech pvt.ltd © 2025 All Rights Reserved
+            </p></a
+          >
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <script src="web/JS/script.js"></script>
+  </body>
 </html>
