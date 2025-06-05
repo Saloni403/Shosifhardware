@@ -114,6 +114,7 @@ button, .part2 .card-body a,.part1 .card-body a
   align-items: center;
   justify-content: space-evenly;
   margin-bottom: 0;
+  gap: 1.5rem;
 }
 .menu li a{
   padding: 5px;
